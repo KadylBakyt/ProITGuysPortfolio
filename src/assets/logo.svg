@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" fill="none">
+  <rect width="40" height="40" rx="10" fill="url(#logoGrad)"/>
+  <text x="20" y="28" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-weight="800" font-size="20" fill="white">P</text>
+  <text x="54" y="26" font-family="Inter,system-ui,sans-serif" font-weight="800" font-size="15" fill="white">Pro</text>
+  <text x="54" y="38" font-family="Inter,system-ui,sans-serif" font-weight="700" font-size="10" fill="#38BDF8" letter-spacing="2">IT GUYS</text>
+  <defs>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+</svg>

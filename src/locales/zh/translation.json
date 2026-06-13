@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "portfolio": "作品集",
+    "technologies": "技术栈",
+    "process": "工作流程",
+    "contact": "联系我们",
+    "getStarted": "开始项目"
+  },
+  "hero": {
+    "badge": "哈萨克斯坦领先IT公司",
+    "title": "为现代商业提供\n数字化解决方案",
+    "subtitle": "我们开发可扩展的软件系统、业务自动化方案、呼叫中心解决方案及企业级平台，为您的业务带来实质性成果。",
+    "ctaConsult": "申请咨询",
+    "ctaProjects": "查看项目",
+    "scrollDown": "向下滚动",
+    "stat1Value": "50+",
+    "stat1Label": "项目",
+    "stat2Value": "30+",
+    "stat2Label": "客户",
+    "stat3Value": "5+",
+    "stat3Label": "年经验"
+  },
+  "about": {
+    "sectionLabel": "关于我们",
+    "title": "驱动业务增长的\n技术力量",
+    "subtitle": "我们将深厚的技术专长与商业洞察相结合，打造真正有效的解决方案。",
+    "description1": "Pro IT Guys是一家总部位于哈萨克斯坦阿斯塔纳的定制软件开发与业务流程自动化公司。我们专注于构建企业级系统，帮助企业实现规模化扩展、流程自动化，并在数字经济中保持竞争优势。",
+    "description2": "从政府信息系统到Telegram机器人，我们以质量、安全性和长期支持为核心，提供端到端解决方案。",
+    "features": {
+      "experience": { "title": "5年以上经验", "desc": "在哈萨克斯坦及独联体国家的企业和中小企业项目中积累了深厚专业知识" },
+      "technologies": { "title": "现代技术栈", "desc": "React、Node.js、Laravel、PostgreSQL、Docker、FreePBX等" },
+      "industries": { "title": "多行业覆盖", "desc": "金融、政府、教育、零售、电信和物流等行业" },
+      "approach": { "title": "敏捷方法论", "desc": "具有清晰里程碑和完全透明度的迭代交付" }
+    },
+    "stats": {
+      "projects": { "value": "50", "suffix": "+", "label": "完成项目" },
+      "clients": { "value": "30", "suffix": "+", "label": "满意客户" },
+      "support": { "value": "24", "suffix": "/7", "label": "技术支持" },
+      "integrations": { "value": "15", "suffix": "+", "label": "系统集成" }
+    }
+  },
+  "services": {
+    "sectionLabel": "我们的服务",
+    "title": "我们的专业领域",
+    "subtitle": "为您的业务量身定制的端到端软件开发服务。",
+    "learnMore": "了解更多",
+    "items": {
+      "webDev": {
+        "title": "Web开发",
+        "desc": "采用前沿技术构建现代化、高性能、响应式Web应用，针对性能和转化率进行优化。"
+      },
+      "crm": {
+        "title": "CRM系统",
+        "desc": "定制化CRM解决方案，用于管理客户关系、跟踪销售线索、自动化跟进流程，提升销售团队效率。"
+      },
+      "erp": {
+        "title": "ERP系统",
+        "desc": "全面的企业资源规划系统，整合运营、财务、人力资源和物流，提升全组织的运营效率。"
+      },
+      "callCenter": {
+        "title": "呼叫中心解决方案",
+        "desc": "提供完整的呼叫中心基础设施，包括IVR、智能路由、坐席监控看板和详细的数据报告。"
+      },
+      "freepbx": {
+        "title": "FreePBX与Asterisk",
+        "desc": "基于FreePBX和Asterisk的专业VoIP电话系统，为企业提供可靠、经济高效且可扩展的通信解决方案。"
+      },
+      "api": {
+        "title": "API集成",
+        "desc": "通过健壮的REST API和Webhook实现第三方服务、支付网关及内部系统的无缝集成。"
+      },
+      "govIS": {
+        "title": "政府信息系统",
+        "desc": "为政府机构定制化信息系统，完全符合国家标准和安全法规要求。"
+      },
+      "tgBot": {
+        "title": "Telegram机器人",
+        "desc": "智能Telegram机器人，用于业务自动化、客户服务、通知推送、支付处理和工作流管理。"
+      },
+      "wa": {
+        "title": "WhatsApp自动化",
+        "desc": "企业级WhatsApp集成方案，实现自动消息推送、客户服务流程和规模化营销活动。"
+      },
+      "support": {
+        "title": "技术支持",
+        "desc": "全天候技术支持、系统监控和主动运维，确保您的业务不间断稳定运行。"
+      }
+    }
+  },
+  "technologies": {
+    "sectionLabel": "技术栈",
+    "title": "我们使用的技术",
+    "subtitle": "我们采用成熟的现代化技术，构建可靠且可扩展的解决方案。"
+  },
+  "portfolio": {
+    "sectionLabel": "作品集",
+    "title": "我们引以为傲的项目",
+    "subtitle": "为客户提供真实成果的实际解决方案。",
+    "viewProject": "查看详情",
+    "resultLabel": "项目成果",
+    "techLabel": "技术栈",
+    "items": {
+      "callCenter": {
+        "title": "呼叫中心管理系统",
+        "desc": "功能完整的呼叫中心平台，具备实时坐席监控、智能呼叫路由、墙板看板和全面数据分析功能。",
+        "result": "通话处理时间缩短40%，坐席效率提升60%",
+        "tech": ["FreePBX", "Asterisk", "React", "Node.js", "PostgreSQL"]
+      },
+      "crm": {
+        "title": "企业CRM平台",
+        "desc": "为大型零售连锁商定制的CRM系统，管理超过10万客户，配备自动化销售漏斗和报表功能。",
+        "result": "销售转化率提升35%，客户留存率提升25%",
+        "tech": ["Laravel", "React", "MySQL", "REST API", "Docker"]
+      },
+      "library": {
+        "title": "图书馆管理系统",
+        "desc": "数字化图书馆平台，支持馆藏管理、在线预约、读者账户管理，并与国家书目数据库集成。",
+        "result": "数字化藏书超5万册，行政工作量减少70%",
+        "tech": ["Laravel", "Vue.js", "PostgreSQL", "REST API"]
+      },
+      "lms": {
+        "title": "学习管理系统",
+        "desc": "全功能在线教育平台，支持视频课程、在线测试、学习进度跟踪、证书生成和教师管理后台。",
+        "result": "活跃学员超5000人，课程完成率达95%",
+        "tech": ["React", "Node.js", "PostgreSQL", "AWS S3", "Docker"]
+      },
+      "tgPlatform": {
+        "title": "Telegram自动化平台",
+        "desc": "面向企业的多机器人Telegram自动化平台，集成CRM、智能自动回复、群发消息和数据分析功能。",
+        "result": "80%咨询实现自动化处理，响应时间不到1分钟",
+        "tech": ["Node.js", "Telegram API", "PostgreSQL", "Redis"]
+      }
+    }
+  },
+  "whyUs": {
+    "sectionLabel": "为何选择我们",
+    "title": "与众不同",
+    "subtitle": "我们不只是写代码——我们构建能与您的业务共同成长的系统。",
+    "items": {
+      "custom": {
+        "title": "定制化开发",
+        "desc": "无模板，无捷径。每个解决方案都专为您的业务需求和工作流程量身设计。"
+      },
+      "security": {
+        "title": "安全优先",
+        "desc": "企业级安全实践从第一天起就内置于应用的每一层，而不是事后追加。"
+      },
+      "scalable": {
+        "title": "可扩展架构",
+        "desc": "系统设计可支持从100到100万用户的增长，无需进行昂贵的重构。"
+      },
+      "fast": {
+        "title": "快速交付",
+        "desc": "采用敏捷开发流程，设有清晰里程碑、每周演示，按时交付有保障。"
+      },
+      "support": {
+        "title": "长期支持",
+        "desc": "上线后我们依然与您同行。包含全天候监控、定期更新和及时的技术支持。"
+      },
+      "automation": {
+        "title": "业务自动化",
+        "desc": "我们识别并消除手动操作瓶颈，将重复性任务转化为高效的自动化工作流。"
+      }
+    }
+  },
+  "process": {
+    "sectionLabel": "工作方式",
+    "title": "我们的流程",
+    "subtitle": "经过验证的交付流程，确保每个项目的高质量交付。",
+    "steps": {
+      "analysis": {
+        "title": "需求分析",
+        "desc": "在规划任何内容之前，我们深入了解您的业务目标、约束条件、用户群体和潜在机会。"
+      },
+      "architecture": {
+        "title": "架构设计",
+        "desc": "在编写第一行代码之前，先设计可扩展、安全且易于维护的系统架构。"
+      },
+      "development": {
+        "title": "迭代开发",
+        "desc": "通过定期演示和反馈循环的迭代冲刺，确保我们始终在构建正确的功能。"
+      },
+      "testing": {
+        "title": "质量测试",
+        "desc": "全面QA测试：单元测试、集成测试、压力测试，以及每次发布前的用户验收测试。"
+      },
+      "deployment": {
+        "title": "部署上线",
+        "desc": "零停机平滑上线，配备自动化流水线和即时回滚能力。"
+      },
+      "support": {
+        "title": "持续支持",
+        "desc": "上线后持续提供全天候监控、系统运维、问题修复和持续优化服务。"
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "客户评价",
+    "title": "客户怎么说",
+    "subtitle": "来自我们帮助过的企业的真实反馈。",
+    "items": [
+      {
+        "name": "艾别克·扎克西别科夫",
+        "position": "首席执行官",
+        "company": "TechCorp Kazakhstan",
+        "text": "Pro IT Guys按时按预算交付了我们的CRM系统。质量超出预期——仅在第一个月，销售团队效率就提升了40%。"
+      },
+      {
+        "name": "蒂娜拉·谢里科娃",
+        "position": "IT总监",
+        "company": "地区金融机构",
+        "text": "他们构建的呼叫中心解决方案每天无故障处理数千通电话。专业的团队、透明的沟通、出色的持续支持。"
+      },
+      {
+        "name": "马拉特·阿赫梅托夫",
+        "position": "总经理",
+        "company": "EduPlatform KZ",
+        "text": "我们的学习管理系统仅用3个月就交付了。团队完美理解了我们的愿景，并实现了我们自己都未曾想到的功能。强烈推荐。"
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "联系我们",
+    "title": "准备好启动您的项目了吗？",
+    "subtitle": "让我们一起探讨您的业务挑战，共同构建解决方案。我们在2小时内响应。",
+    "whatsappLabel": "WhatsApp咨询",
+    "telegramLabel": "Telegram留言",
+    "emailLabel": "发送邮件",
+    "phoneLabel": "电话联系",
+    "addressLabel": "办公地址",
+    "addressValue": "哈萨克斯坦阿斯塔纳，Ulydala大道40号",
+    "phoneValue": "+7 705 757 32 78",
+    "responseTime": "工作日内2小时内响应",
+    "orContact": "或直接联系我们"
+  },
+  "footer": {
+    "description": "总部位于哈萨克斯坦阿斯塔纳的定制软件开发与业务流程自动化公司。",
+    "quickLinks": "快速导航",
+    "contacts": "联系方式",
+    "services": "服务",
+    "company": "公司",
+    "copyright": "© {{year}} Pro IT Guys. 保留所有权利。",
+    "privacyPolicy": "隐私政策"
+  }
+}

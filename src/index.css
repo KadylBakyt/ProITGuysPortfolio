@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Dark theme (default) ─────────────────────── */
+:root {
+  --bg: 5 8 22;
+  --surface: 15 23 42;
+  --surface-2: 22 32 50;
+  --fg: 255 255 255;
+  --muted: 148 163 184;
+  --card-border: rgba(255, 255, 255, 0.07);
+  --nav-bg: rgba(5, 8, 22, 0.85);
+  --particle-rgb: 56, 189, 248;
+}
+
+/* ── Light theme ──────────────────────────────── */
+:root.light {
+  --bg: 242 247 255;
+  --surface: 255 255 255;
+  --surface-2: 229 239 255;
+  --fg: 15 23 42;
+  --muted: 100 116 139;
+  --card-border: rgba(15, 23, 42, 0.08);
+  --nav-bg: rgba(242, 247, 255, 0.9);
+  --particle-rgb: 37, 99, 235;
+}
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer utilities {
+  .card-border {
+    border-color: var(--card-border);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #FFFFFF 0%, #38BDF8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  :root.light .text-gradient {
+    background: linear-gradient(135deg, #0F172A 0%, #2563EB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-primary {
+    background: linear-gradient(135deg, #2563EB 0%, #38BDF8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glass {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Smooth theme transition for key elements */
+  .theme-transition {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* CSS-only fade for gradient text — avoids framer-motion will-change: transform */
+  @keyframes gradientTextFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  .hero-gradient-text {
+    opacity: 0;
+    animation: gradientTextFadeIn 0.7s ease-out forwards;
+    animation-delay: 0.55s;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    /* Fallback: color stays for older browsers */
+  }
+}

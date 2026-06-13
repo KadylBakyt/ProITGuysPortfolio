@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "technologies": "Technologies",
+    "process": "Process",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Kazakhstan's Premier IT Company",
+    "title": "Digital Solutions\nFor Modern Business",
+    "subtitle": "We develop scalable software, automation systems, call center solutions and enterprise platforms that drive real business results.",
+    "ctaConsult": "Request Consultation",
+    "ctaProjects": "View Projects",
+    "scrollDown": "Scroll to explore",
+    "stat1Value": "50+",
+    "stat1Label": "Projects",
+    "stat2Value": "30+",
+    "stat2Label": "Clients",
+    "stat3Value": "5+",
+    "stat3Label": "Years"
+  },
+  "about": {
+    "sectionLabel": "About Us",
+    "title": "Technology That Drives\nBusiness Forward",
+    "subtitle": "We combine deep technical expertise with business understanding to deliver solutions that actually work.",
+    "description1": "Pro IT Guys is a custom software development and business process automation company based in Astana, Kazakhstan. We specialize in building enterprise-grade systems that help businesses scale, automate, and compete in the digital economy.",
+    "description2": "From government information systems to Telegram bots, we deliver end-to-end solutions with a focus on quality, security, and long-term support.",
+    "features": {
+      "experience": { "title": "5+ Years Experience", "desc": "Deep expertise across enterprise and SMB projects in Kazakhstan and CIS" },
+      "technologies": { "title": "Modern Tech Stack", "desc": "React, Node.js, Laravel, PostgreSQL, Docker, FreePBX and more" },
+      "industries": { "title": "Multiple Industries", "desc": "Finance, government, education, retail, telecoms and logistics" },
+      "approach": { "title": "Agile Approach", "desc": "Iterative delivery with clear milestones and full transparency" }
+    },
+    "stats": {
+      "projects": { "value": "50", "suffix": "+", "label": "Projects Completed" },
+      "clients": { "value": "30", "suffix": "+", "label": "Happy Clients" },
+      "support": { "value": "24", "suffix": "/7", "label": "Technical Support" },
+      "integrations": { "value": "15", "suffix": "+", "label": "System Integrations" }
+    }
+  },
+  "services": {
+    "sectionLabel": "Our Services",
+    "title": "What We Build",
+    "subtitle": "End-to-end software development services tailored to your business needs.",
+    "learnMore": "Learn More",
+    "items": {
+      "webDev": {
+        "title": "Web Development",
+        "desc": "Modern, fast and responsive web applications built with cutting-edge technologies, optimized for performance and conversions."
+      },
+      "crm": {
+        "title": "CRM Systems",
+        "desc": "Custom CRM solutions to manage customer relationships, track leads, automate follow-ups and boost sales team productivity."
+      },
+      "erp": {
+        "title": "ERP Systems",
+        "desc": "Comprehensive enterprise resource planning systems to streamline operations, finance, HR and logistics across your organization."
+      },
+      "callCenter": {
+        "title": "Call Center Solutions",
+        "desc": "Complete call center infrastructure with IVR, intelligent call routing, agent monitoring dashboards and detailed reporting."
+      },
+      "freepbx": {
+        "title": "FreePBX & Asterisk",
+        "desc": "Professional VoIP telephony solutions using FreePBX and Asterisk for reliable, cost-effective and scalable business communications."
+      },
+      "api": {
+        "title": "API Integrations",
+        "desc": "Seamless integration of third-party services, payment gateways and internal systems through robust REST and webhook APIs."
+      },
+      "govIS": {
+        "title": "Government Systems",
+        "desc": "Specialized information systems for government institutions, fully compliant with state standards and security regulations."
+      },
+      "tgBot": {
+        "title": "Telegram Bots",
+        "desc": "Intelligent Telegram bots for business automation, customer service, notifications, payments and workflow management."
+      },
+      "wa": {
+        "title": "WhatsApp Automation",
+        "desc": "Business WhatsApp integration for automated messaging, customer support flows and marketing campaigns at scale."
+      },
+      "support": {
+        "title": "Technical Support",
+        "desc": "24/7 technical support, system monitoring and proactive maintenance to ensure your business runs without interruption."
+      }
+    }
+  },
+  "technologies": {
+    "sectionLabel": "Tech Stack",
+    "title": "Technologies We Use",
+    "subtitle": "We leverage proven, modern technologies to build reliable and scalable solutions."
+  },
+  "portfolio": {
+    "sectionLabel": "Portfolio",
+    "title": "Projects We're Proud Of",
+    "subtitle": "Real solutions delivering real results for our clients.",
+    "viewProject": "View Details",
+    "resultLabel": "Result",
+    "techLabel": "Technologies",
+    "items": {
+      "callCenter": {
+        "title": "Call Center Management System",
+        "desc": "A full-featured call center platform with real-time agent monitoring, intelligent call routing, wallboard dashboards and comprehensive analytics.",
+        "result": "Reduced call handling time by 40%, agent efficiency up 60%",
+        "tech": ["FreePBX", "Asterisk", "React", "Node.js", "PostgreSQL"]
+      },
+      "crm": {
+        "title": "Enterprise CRM Platform",
+        "desc": "Custom CRM built for a large retail chain managing 100,000+ customers with automated sales pipelines, task management and reporting.",
+        "result": "Sales conversion +35%, customer retention +25%",
+        "tech": ["Laravel", "React", "MySQL", "REST API", "Docker"]
+      },
+      "library": {
+        "title": "Library Management System",
+        "desc": "Digital library platform with catalog management, online booking, reader accounts and integration with national book databases.",
+        "result": "50,000+ books digitized, admin workload reduced by 70%",
+        "tech": ["Laravel", "Vue.js", "PostgreSQL", "REST API"]
+      },
+      "lms": {
+        "title": "Learning Management System",
+        "desc": "Full-featured e-learning platform with video courses, assessments, progress tracking, certificates and instructor dashboards.",
+        "result": "5,000+ active students, 95% course completion rate",
+        "tech": ["React", "Node.js", "PostgreSQL", "AWS S3", "Docker"]
+      },
+      "tgPlatform": {
+        "title": "Telegram Automation Platform",
+        "desc": "Multi-bot Telegram automation platform with CRM integration, smart auto-responses, broadcast campaigns and analytics.",
+        "result": "80% of inquiries automated, response time < 1 minute",
+        "tech": ["Node.js", "Telegram API", "PostgreSQL", "Redis"]
+      }
+    }
+  },
+  "whyUs": {
+    "sectionLabel": "Why Choose Us",
+    "title": "Built Different",
+    "subtitle": "We don't just write code. We build systems that grow with your business.",
+    "items": {
+      "custom": {
+        "title": "Custom Development",
+        "desc": "No templates, no shortcuts. Every solution is architectured specifically for your business requirements and workflows."
+      },
+      "security": {
+        "title": "Security First",
+        "desc": "Enterprise-grade security practices built into every layer of your application from day one, not bolted on after."
+      },
+      "scalable": {
+        "title": "Scalable Architecture",
+        "desc": "Systems designed to handle growth — from 100 to 1,000,000 users without costly rewrites or performance degradation."
+      },
+      "fast": {
+        "title": "Fast Delivery",
+        "desc": "Agile development process with clear milestones, weekly demos and on-time delivery you can rely on."
+      },
+      "support": {
+        "title": "Long-term Support",
+        "desc": "We stay with you after launch. 24/7 monitoring, regular updates and responsive technical support included."
+      },
+      "automation": {
+        "title": "Business Automation",
+        "desc": "We identify and eliminate manual bottlenecks, turning repetitive tasks into streamlined automated workflows."
+      }
+    }
+  },
+  "process": {
+    "sectionLabel": "How We Work",
+    "title": "Our Process",
+    "subtitle": "A proven delivery process that ensures quality on every project.",
+    "steps": {
+      "analysis": {
+        "title": "Analysis",
+        "desc": "We dive deep into your business to understand goals, constraints, users and opportunities before planning anything."
+      },
+      "architecture": {
+        "title": "Architecture",
+        "desc": "Designing a scalable, secure and maintainable system architecture before writing a single line of code."
+      },
+      "development": {
+        "title": "Development",
+        "desc": "Iterative sprints with regular demos and feedback loops to ensure we're always building the right thing."
+      },
+      "testing": {
+        "title": "Testing",
+        "desc": "Comprehensive QA: unit tests, integration tests, load testing and user acceptance testing before every release."
+      },
+      "deployment": {
+        "title": "Deployment",
+        "desc": "Smooth production deployment with zero downtime, automated pipelines and instant rollback capabilities."
+      },
+      "support": {
+        "title": "Support",
+        "desc": "Ongoing 24/7 monitoring, maintenance, bug fixes and continuous improvement long after launch."
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "Testimonials",
+    "title": "What Our Clients Say",
+    "subtitle": "Real feedback from businesses we've helped transform digitally.",
+    "items": [
+      {
+        "name": "Aibek Dzhaksybekov",
+        "position": "CEO",
+        "company": "TechCorp Kazakhstan",
+        "text": "Pro IT Guys delivered our CRM on time and within budget. The quality exceeded our expectations — our sales team productivity increased by 40% in the first month alone."
+      },
+      {
+        "name": "Dinara Serikova",
+        "position": "IT Director",
+        "company": "Regional Financial Institution",
+        "text": "The call center solution they built handles thousands of daily calls flawlessly. Professional team, transparent communication, and outstanding ongoing support."
+      },
+      {
+        "name": "Marat Akhmetov",
+        "position": "General Director",
+        "company": "EduPlatform KZ",
+        "text": "Our LMS was delivered in just 3 months. The team understood our vision perfectly and implemented features we hadn't even thought of. Highly recommend."
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Get In Touch",
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Let's discuss your business challenges and build a solution together. We respond within 2 hours.",
+    "whatsappLabel": "Chat on WhatsApp",
+    "telegramLabel": "Message on Telegram",
+    "emailLabel": "Send an Email",
+    "phoneLabel": "Call Us",
+    "addressLabel": "Our Office",
+    "addressValue": "Astana, Ulydala Ave. 40",
+    "phoneValue": "+7 705 757 32 78",
+    "responseTime": "We respond within 2 hours on business days",
+    "orContact": "Or reach us directly"
+  },
+  "footer": {
+    "description": "Custom software development and business process automation company based in Astana, Kazakhstan.",
+    "quickLinks": "Quick Links",
+    "contacts": "Contacts",
+    "services": "Services",
+    "company": "Company",
+    "copyright": "© {{year}} Pro IT Guys. All rights reserved.",
+    "privacyPolicy": "Privacy Policy"
+  }
+}
