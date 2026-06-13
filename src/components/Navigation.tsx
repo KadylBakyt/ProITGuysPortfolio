@@ -54,7 +54,7 @@ export default function Navigation() {
               className="flex items-center gap-2.5 flex-shrink-0 group"
             >
               <img
-                src="/logos/logo-icon-white.png"
+                src={`${import.meta.env.BASE_URL}logos/logo-icon-white.png`}
                 alt="Pro IT Guys"
                 className="w-9 h-9 rounded-xl object-cover flex-shrink-0"
               />
@@ -140,7 +140,7 @@ export default function Navigation() {
             >
               <div className="flex items-center justify-between p-5 border-b border-foreground/[0.06]">
                 <div className="flex items-center gap-2.5">
-                  <img src="/logos/logo-icon-white.png" alt="" className="w-8 h-8 rounded-xl object-cover" />
+                  <img src={`${import.meta.env.BASE_URL}logos/logo-icon-white.png`} alt="" className="w-8 h-8 rounded-xl object-cover" />
                   <span className="text-foreground font-bold text-sm whitespace-nowrap">
                     Pro <span className="text-primary">IT</span> Guys
                   </span>

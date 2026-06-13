@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="lg:col-span-2 flex flex-col gap-5">
             <div className="flex items-center gap-3">
               <img
-                src="/logos/logo-icon-white.png"
+                src={`${import.meta.env.BASE_URL}logos/logo-icon-white.png`}
                 alt="Pro IT Guys"
                 className="w-10 h-10 rounded-xl object-cover flex-shrink-0"
               />
